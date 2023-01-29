@@ -1,0 +1,5 @@
+<launch>
+    <!-- RViz -->
+    <node pkg="rviz" type="rviz" name="rviz" 
+        args="-d $(find iaac_turtlebot_demos)/rviz/sim.rviz"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <!-- Path planning and navigation (Move base) -->
+   <include file="$(find iaac_turtlebot_demos)/launch/includes/move_base.launch.xml"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <!-- SLAM with Gmapping -->
+    <include file="$(find iaac_turtlebot_demos)/launch/includes/gmapping.launch.xml"/>
+</launch>

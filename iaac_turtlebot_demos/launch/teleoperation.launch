@@ -1,0 +1,6 @@
+<launch>
+    <!-- Teleoperation from keyboard -->
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_turtlebot" output="screen">
+        <remap from="cmd_vel" to="/cmd_vel_mux/input/teleop"/>
+    </node>
+</launch>
